@@ -146,6 +146,65 @@ module.exports = {
 }
 ```
 
+<br />
+
+**Jest & Cypress with Github Actions**
+
+    yarn add -D cypress @types/cypress
+
+```json
+"scripts": {
+  ...
+  "cypress": "cypress open"
+}
+```
+
+**명령어를 실행하여 cypress를 초기화합니다.**
+
+    yarn cypress open
+
+> _Jest와 Cypress의 충돌 방지를 위해 cypress 폴더안에 tsconfig을 생성합니다. 이 문제를 처리하지 않으면 테스트 파일의 몇 가지 유형 문제가 발생합니다._
+
+    touch cypress/tsconfig.json
+
+```json
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    // 포함된 유형에 대해 명시
+    // Jest 타입과 충돌나지 않기위해 작성
+    "types": ["cypress"]
+  },
+  "include": [
+    "../node_modules/cypress",
+    "../tsconfig.json",
+    "../package.json",
+    "./**/*.ts"
+  ]
+}
+```
+
+**`루트 tsconfig.json에 cypress가 제외되었는지 다시 확인!`**
+
+> _cypress 폴더에서 기본 파일을 삭제하고 새로 생성합니다. ( .ts로 변경 )_
+
+`cypress/plugins/index.js` -> []()
+
+`cypress/support/index.js` -> []()
+
+`cypress/support/commands.js` -> []()
+
+**Test를 생성합니다.**
+
+`cypress/integration/app.spec.ts` -> []()
+
+**Index Page를 추가합니다.** -> []()
+
+**About Page를 추가합니다.** -> []()
+
+**`yarn dev` 실행한 후, 다른 터미널에서 `yarn cypress`를 실행합니다.**
+
 ---
 
 # [Part Two (Add Tailwind)](https://wk0.medium.com/adding-tailwind-to-a-nextjs-typescript-project-d1eba5699c4d)
