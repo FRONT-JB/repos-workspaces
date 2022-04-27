@@ -121,12 +121,6 @@ module.exports = createJestConfig(customJestConfig)
 },
 ```
 
-Type check TypeScript 파일
-
-TypeScript 및 JavaScript 파일을 린트한 다음 포맷합니다.
-
-형식 마크다운 및 JSON
-
 <br />
 
 **lint-staged.config.js**
@@ -195,13 +189,19 @@ module.exports = {
 
 `cypress/support/commands.js` -> [cypress/support/commands.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/support/index.ts)
 
+<br />
+
 **Test를 생성합니다.**
 
 `cypress/integration/app.spec.ts` -> [app.spec.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/integration/app.spec.ts)
 
+<br />
+
 **Index Page를 추가합니다.** -> [Index Page](https://github.com/FRONT-JB/repos-workspaces/blob/master/pages/index.tsx)
 
 **About Page를 추가합니다.** -> [About Page](https://github.com/FRONT-JB/repos-workspaces/blob/master/pages/about.tsx)
+
+<br />
 
 **`yarn dev` 실행한 후, 다른 터미널에서 `yarn cypress`를 실행합니다.**
 
