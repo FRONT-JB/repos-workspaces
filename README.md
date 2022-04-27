@@ -227,6 +227,8 @@ module.exports = {
     mkdir .github/workflows
     touch .github/workflows/testing.yml
 
+> [.github/workflows/testing.yml](https://github.com/FRONT-JB/repos-workspaces/blob/master/.github/workflows/testing.yml)
+
 ---
 
 # [Part Two (Add Tailwind)](https://wk0.medium.com/adding-tailwind-to-a-nextjs-typescript-project-d1eba5699c4d)
