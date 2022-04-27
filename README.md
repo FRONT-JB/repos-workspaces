@@ -189,19 +189,19 @@ module.exports = {
 
 > _cypress 폴더에서 기본 파일을 삭제하고 새로 생성합니다. ( .ts로 변경 )_
 
-`cypress/plugins/index.js` -> []()
+`cypress/plugins/index.js` -> [cypress/plugins/index.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/plugins/index.ts)
 
-`cypress/support/index.js` -> []()
+`cypress/support/index.js` -> [cypress/support/index.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/support/commands.ts)
 
-`cypress/support/commands.js` -> []()
+`cypress/support/commands.js` -> [cypress/support/commands.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/support/index.ts)
 
 **Test를 생성합니다.**
 
-`cypress/integration/app.spec.ts` -> []()
+`cypress/integration/app.spec.ts` -> [app.spec.ts](https://github.com/FRONT-JB/repos-workspaces/blob/master/cypress/integration/app.spec.ts)
 
-**Index Page를 추가합니다.** -> []()
+**Index Page를 추가합니다.** -> [Index Page](https://github.com/FRONT-JB/repos-workspaces/blob/master/pages/index.tsx)
 
-**About Page를 추가합니다.** -> []()
+**About Page를 추가합니다.** -> [About Page](https://github.com/FRONT-JB/repos-workspaces/blob/master/pages/about.tsx)
 
 **`yarn dev` 실행한 후, 다른 터미널에서 `yarn cypress`를 실행합니다.**
 
