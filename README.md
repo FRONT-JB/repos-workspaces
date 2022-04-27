@@ -10,9 +10,10 @@
 
 ```js
 "scripts": {
-    ...
-    "test": "jest --watch",
-    "test:ci": "jest --ci"
+  ...
+  "test": "jest --verbose",
+  "test:watch": "jest --watch",
+  "test:ci": "jest --ci",
 }
 
 ```
@@ -213,6 +214,18 @@ module.exports = {
 
     mkdir __tests__
     touch __tests__/index.test.tsx
+
+`index.test.tsx` 생성 -> [index.test.tsx](https://github.com/FRONT-JB/repos-workspaces/blob/master/__tests__/index.test.tsx)
+
+    yarn test
+
+<br />
+
+**Github Actions ( CI Test )**
+
+    mkdir .github
+    mkdir .github/workflows
+    touch .github/workflows/testing.yml
 
 ---
 
