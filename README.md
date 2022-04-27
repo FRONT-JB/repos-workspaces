@@ -2,7 +2,7 @@
 
 **NextJS Typescript 스타터는 훌륭하지만 프로젝트가 성장함에 따라 유용하게 될 도구를 조금 더 추가해 보겠습니다.**
 
-    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react @typescript-eslint/eslint-plugin
+    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react jest-environment-jsdom @typescript-eslint/eslint-plugin
 
 **이러한 패키지는 형식 지정 및 테스트를 위한 좋은 기반을 제공합니다.**
 
@@ -207,6 +207,12 @@ module.exports = {
 
 <img width="695" alt="image" src="https://user-images.githubusercontent.com/85790271/165547703-a6995380-01d0-4f27-af16-b37dcca13dd0.png">
 
+<br />
+
+**Jest 추가**
+
+    mkdir __tests__
+    touch __tests__/index.test.tsx
 
 ---
 
