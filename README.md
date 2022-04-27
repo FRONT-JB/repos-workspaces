@@ -205,6 +205,9 @@ module.exports = {
 
 **`yarn dev` 실행한 후, 다른 터미널에서 `yarn cypress`를 실행합니다.**
 
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/85790271/165547703-a6995380-01d0-4f27-af16-b37dcca13dd0.png">
+
+
 ---
 
 # [Part Two (Add Tailwind)](https://wk0.medium.com/adding-tailwind-to-a-nextjs-typescript-project-d1eba5699c4d)
