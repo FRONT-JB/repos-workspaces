@@ -245,7 +245,7 @@ module.exports = {
 
     touch tailwind.config.js
 
-**[]()**
+**[tailwind.config.js](https://github.com/FRONT-JB/repos-workspaces/blob/master/tailwind.config.js)**
 
 <br />
 
