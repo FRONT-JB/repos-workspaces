@@ -232,3 +232,52 @@ module.exports = {
 ---
 
 # [Part Two (Add Tailwind)](https://wk0.medium.com/adding-tailwind-to-a-nextjs-typescript-project-d1eba5699c4d)
+
+**Add Tailwind**
+
+    yarn add @headlessui/react @heroicons/react @tailwindcss/aspect-ratio @tailwindcss/forms @tailwindcss/line-clamp @tailwindcss/typography
+
+<br />
+
+    yarn add -D postcss prettier-plugin-tailwindcss tailwindcss autoprefixer
+
+<br />
+
+    touch tailwind.config.js
+
+**[]()**
+
+<br />
+
+    touch postcss.config.js
+
+```js
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+```
+
+<br />
+
+`styles/globals.css`
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: 100%;
+    background-color: white;
+  }
+  body {
+    height: 100%;
+  }
+}
+```
+
+---
