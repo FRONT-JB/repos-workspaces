@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@headlessui/react", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:1.6.0"],\
             ["@heroicons/react", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:1.0.6"],\
+            ["@next/eslint-plugin-next", "npm:12.1.5"],\
             ["@tailwindcss/aspect-ratio", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.4.0"],\
             ["@tailwindcss/forms", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.5.0"],\
             ["@tailwindcss/line-clamp", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.4.0"],\
@@ -9735,6 +9736,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yarnberry-template", "workspace:."],\
             ["@headlessui/react", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:1.6.0"],\
             ["@heroicons/react", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:1.0.6"],\
+            ["@next/eslint-plugin-next", "npm:12.1.5"],\
             ["@tailwindcss/aspect-ratio", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.4.0"],\
             ["@tailwindcss/forms", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.5.0"],\
             ["@tailwindcss/line-clamp", "virtual:6491efc6de51456de45b02549b5f063d73ec38b1fc757678fd9c7d57743cb5eff1ac6c6609b2abd59c2a2960311d23a53a89b5ad92bc63fc30e1efcc247a3732#npm:0.4.0"],\
