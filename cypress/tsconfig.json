@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    // 포함된 유형에 대해 명시
+    // Jest 타입과 충돌나지 않기위해 작성
+    "types": ["cypress"]
+  },
+  "include": [
+    "../node_modules/cypress",
+    "../tsconfig.json",
+    "../package.json",
+    "./**/*.ts"
+  ]
+}

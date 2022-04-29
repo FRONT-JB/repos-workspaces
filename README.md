@@ -193,6 +193,12 @@ module.exports = {
 }
 ```
 
+```json
+// .eslintrc.json
+...
+ "ignorePatterns": ["cypress"]
+```
+
 **`루트 tsconfig.json에 cypress가 제외되었는지 다시 확인!`**
 
 > _cypress 폴더에서 기본 파일을 삭제하고 새로 생성합니다. ( .ts로 변경 )_
