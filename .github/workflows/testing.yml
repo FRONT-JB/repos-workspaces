@@ -19,8 +19,8 @@ jobs:
           node-version: '16.14.x'
           check-latest: true
 
-      - name: Install Npm Dependencies
-        run: yarn install
+      # - name: Install Npm Dependencies
+      #   run: yarn install
 
       - name: Build App
         run: yarn build
