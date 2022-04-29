@@ -9,7 +9,7 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   // 루트 디렉터리로 설정된 baseUrl과 함께 TypeScript를 사용하는 경우 alias가 작동하려면 다음이 필요합니다.
   setupFilesAfterEnv: ['@testing-library/jest-dom'],
-  moduleDirectories: ['node_modules', '<rootDir>/'],
+  moduleDirectories: ['<rootDir>/'],
   testEnvironment: 'jest-environment-jsdom',
   modulePathIgnorePatterns: ['cypress'],
 }
