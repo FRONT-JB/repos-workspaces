@@ -3226,7 +3226,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:6.5.1":
+"eslint-plugin-jsx-a11y@npm:6.5.1, eslint-plugin-jsx-a11y@npm:^6.5.1":
   version: 6.5.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.5.1"
   dependencies:
@@ -7806,6 +7806,7 @@ __metadata:
     eslint-config-prettier: ^8.5.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest-dom: ^4.0.1
+    eslint-plugin-jsx-a11y: ^6.5.1
     husky: ^7.0.4
     jest: ^28.0.2
     jest-environment-jsdom: ^28.0.2
