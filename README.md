@@ -1,8 +1,10 @@
 # [Create a Typescript NextJS Project with Jest & Cypress](https://wk0.medium.com/create-a-typescript-nextjs-project-with-jest-cypress-adbbcf237747)
 
+_[Next.js에서 Testing 세팅하기](https://www.rldnrl.dev/blog/next-testing-setting)_
+
 **NextJS Typescript 스타터는 훌륭하지만 프로젝트가 성장함에 따라 유용하게 될 도구를 조금 더 추가해 보겠습니다.**
 
-    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react jest-environment-jsdom @typescript-eslint/eslint-plugin
+    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react jest-environment-jsdom @typescript-eslint/eslint-plugin @types/jest
 
 **이러한 패키지는 형식 지정 및 테스트를 위한 좋은 기반을 제공합니다.**
 
@@ -11,7 +13,7 @@
 ```js
 "scripts": {
   ...
-  "test": "jest --verbose",
+  "test": "jest",
   "test:watch": "jest --watch",
   "test:ci": "jest --ci",
 }
@@ -36,12 +38,14 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   // 루트 디렉터리로 설정된 baseUrl과 함께 TypeScript를 사용하는 경우 alias가 작동하려면 다음이 필요합니다.
   setupFilesAfterEnv: ['@testing-library/jest-dom'],
-  moduleDirectories: ['node_modules', '<rootDir>/'],
-  testEnvirontment: 'jest-environment-jsdom',
+  moduleDirectories: ['<rootDir>/'],
+  testEnvironment: 'jest-environment-jsdom',
+  verbose: true,
   modulePathIgnorePatterns: ['cypress'],
 }
 
 module.exports = createJestConfig(customJestConfig)
+
 ```
 
 <br />
