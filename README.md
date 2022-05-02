@@ -4,7 +4,7 @@ _[Next.js에서 Testing 세팅하기](https://www.rldnrl.dev/blog/next-testing-s
 
 **NextJS Typescript 스타터는 훌륭하지만 프로젝트가 성장함에 따라 유용하게 될 도구를 조금 더 추가해 보겠습니다.**
 
-    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react jest-environment-jsdom @typescript-eslint/eslint-plugin @types/jest
+    yarn add -D ts-node prettier jest husky lint-staged eslint-config-prettier eslint-plugin-jest-dom @testing-library/jest-dom @testing-library/react @types/testing-library__jest-dom @types/testing-library__react jest-environment-jsdom @typescript-eslint/eslint-plugin @types/jest @testing-library/user-event
 
 **이러한 패키지는 형식 지정 및 테스트를 위한 좋은 기반을 제공합니다.**
 
